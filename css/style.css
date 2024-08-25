@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #82daee;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.some {
+  color: #ff6347;
+}
+
+#special {
+  color: #008000;
+}
+
+a[title='some link'] {
+  color: #212121;
+}
+
+div p {
+  color: #ee82ee;
+}
+
+.text > span {
+  color: #ffff00;
+}
+
+p + strong {
+  color: #a52a2a;
+}
+
+p ~ .accent {
+  color: #0000ff;
+}
+
+li:nth-child(2n + 1) {
+  color: #ff0000;
+}

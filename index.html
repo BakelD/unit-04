@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unit 04</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <h1>Застосовується до тега h1, вага 0001</h1>
+
+  <p class="some">Застосовується до елементу з класом .some, вага 0010 </p>
+  <span class="some">Застосовується до елементу з класом .some, вага 0010</span>
+
+  <p id="special">Застосовується до елементу з id #special, вага 0100</p>
+
+  <a href="" title="some link">Застосовується до до всіх тегiв a, якi мають атрибут [title="some link"], вага 0011</a>
+
+  <div>
+    <p>Застосовується до тегів p, вкладених у div, на будь якому рівні, вага 0002</p>
+  </div>
+
+  <div class="text">
+    <span>Застосовується до тегів span, вкладених у елемент з класом .text, на першому рівні, вага 0011</span>
+  </div>
+
+  <p>Lorem, ipsum dolor.</p>
+  <strong>Застосовується до тегів strong, якi розташованi вiдрузу після елементу p, вага 0002</strong>
+
+  <p>Lorem, ipsum dolor.</p>
+  <span class="accent">
+    Застосовується до елементів з класом .accent, якi розташованi після елементу p, вага
+    0002
+  </span>
+  <span class="accent">
+    Застосовується до елементів з класом .accent, якi розташованi після елементу p, вага
+    0002
+  </span>
+
+  <ul>
+    <li>Застосовується до всіх дочірніх непарних елементів li, вага 0011</li>
+    <li>item</li>
+    <li>Застосовується до всіх дочірніх непарних елементів li, вага 0011</li>
+    <li>item</li>
+    <li>Застосовується до всіх дочірніх непарних елементів li, вага 0011</li>
+  </ul>
+</body>
+
+</html>
